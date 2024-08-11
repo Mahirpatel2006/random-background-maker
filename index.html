@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right top, #36a76e,#8ac07d);
+            color: #fff;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+/* 
+        .container {
+            opacity: 10;
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        } */
+
+        .color-input {
+            display: inline-block;
+            margin: 1rem;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 5px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .color-input:first-child {
+            background-color: #6384b6; /* First color of the gradient */
+        }
+
+        .color-input:last-child {
+            background-color: #A8EB12; /* Last color of the gradient */
+        }
+
+        
+
+        .css-code {
+            margin-top: 2rem;
+            padding: 1rem;
+            border: 1px solid #1f1e1e;
+            border-radius: 5px;
+            font-family: monospace;
+            white-space: pre-wrap;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>background-color Generator</h1>
+
+    <div class="container">
+        <div class="color-inputs">
+            <button class="color-input c1" id="color-1">#051937</button>
+            <button class="color-input c2" id="color-2">#A8EB12</button>
+        </div>
+
+      
+
+        <div class="css-code" id="csscode">background-image: linear-gradient(to right top, #051937, #004d7a);</div>
+    </div>
+
+    <script src="script.js">
+
+
+
+    </script>
+</body>
+</html>
